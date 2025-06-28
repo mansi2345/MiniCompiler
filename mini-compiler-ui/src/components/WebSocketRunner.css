@@ -1,0 +1,40 @@
+.ws-runner {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.ws-output {
+  height: 200px;
+  overflow-y: auto;
+  background: #111;
+  color: #0f0;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.ws-input-box {
+  display: flex;
+  gap: 8px;
+}
+
+.ws-input-box input {
+  flex: 1;
+  padding: 6px;
+  font-family: monospace;
+}
+
+.run-btn {
+  margin-bottom: 10px;
+  background: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

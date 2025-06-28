@@ -1,0 +1,60 @@
+/* src/App.css */
+body {
+  font-family: "Handlee";
+  background-color: #efeeaa;
+  margin: 0;
+  margin-top: 10;
+  padding: 2rem;
+  color: #333;
+}
+.mainWindow {
+  height: 100%;
+}
+.subWindow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /* larger space at start/end */
+  align-items: flex-start;
+  gap: 20px; /* (optional) in case browsers don’t add it evenly */
+  width: 100%;
+  padding: 0 10vw; /* even more control: add extra space at ends */
+  box-sizing: border-box;
+}
+
+.center-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  display: flex;
+  align-items: center; /* vertically center image and text */
+  justify-content: center; /* center entire block horizontally */
+  /* optional: small space between image and text */
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #987f3b; /* vibrant blue */
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Just Another Hand font */
+.just-another-hand {
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Winky Sans font (variable weight) */
+.winky-sans {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* adjust between 300–900 */
+  font-style: normal;
+}

@@ -1,0 +1,48 @@
+.editor-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.editor-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #4e573b;
+}
+
+.code-editor {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background-color: #211f1fcc;
+  color: white;
+  letter-spacing: 2px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  resize: vertical;
+}
+
+.compile-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-family: "Handlee";
+  background-color: #987f3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.3s ease;
+}
+
+.compile-btn:hover {
+  background-color: #0056b3;
+}

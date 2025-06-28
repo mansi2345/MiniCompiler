@@ -1,0 +1,50 @@
+// Prompt user for number of terms
+print("Enter the number of terms:");
+
+// Input an integer using input(int)
+int n = input(int);
+
+// Print the number of terms entered
+print("You entered:");
+print(n);
+
+// Prompt user for a float input
+print("Enter a float value (z):");
+float z = input(float);
+
+// Display the entered float
+print("You entered z:");
+print(z);
+
+// Modify z and print the updated value
+z = 4.5;
+print("Updated z:");
+print(z);
+
+// Start of Fibonacci sequence
+print("Fibonacci sequence:");
+
+// Initialize Fibonacci variables
+int a = 0;
+int b = 1;
+int count = 0;
+
+// Repeat loop to print Fibonacci numbers
+repeat (count < n) {
+    print(a);
+    
+    // Compute next term
+    int temp = a + b;
+    a = b;
+    b = temp;
+    
+    // Increment loop counter
+    count = count + 1;
+
+    // Stop early for demonstration purposes
+    if (count == 7) {
+        stop;
+    }
+}
+
+print("Done.");
